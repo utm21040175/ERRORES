@@ -1,7 +1,7 @@
-import { modelo } from "../models/alumnos.model";
+import { Modelo } from "../models/alumnos.model.js";
 
-modelo.create({
-    Name:"Rodolfo",
+Modelo.create({
+    name:"Rodolfo",
     edad:25
 })
 
